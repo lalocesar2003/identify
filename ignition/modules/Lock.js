@@ -1,5 +1,5 @@
 const { buildModule } = require("@nomicfoundation/hardhat-ignition/modules");
-module.exports = buildModule("IdentiFi", (m) => {
-  const identiFi = m.contract("IdentiFi");
+module.exports = buildModule("Identify", (m) => {
+  const identiFi = m.contract("Identify");
   return { identiFi };
 });
